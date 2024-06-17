@@ -14,8 +14,9 @@ html {
   justify-content: center;
   align-items: center;
   animation-name: example;
-  animation-duration: 25s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
+  animation-delay: 0ms;
 }
 @keyframes example {
   0% {
@@ -23,54 +24,63 @@ html {
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   12.5% {
     background: url(/img/b2.jpg);
     left: 200px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   25% {
-    background: url(/img/b4.jpg);
+    background: url(/img/b3.jpg);
     left: 200px;
     top: 200px;
     background-size: cover;
+    background-position: center;
   }
   37.5% {
     background: url(/img/b3.jpg);
     left: 0px;
     top: 200px;
     background-size: cover;
+    background-position: center;
   }
   50% {
-    background: url(/img/b5.jpg);
+    background: url(/img/b5.jpeg);
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   62.5% {
-    background: url(/img/b6.jpg);
+    background: url(/img/b6.jpeg);
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   75% {
-    background: url(/img/b7.jpg);
+    background: url(/img/b7.jpeg);
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   87.5% {
     background: url(/img/b8.jpg);
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
   100% {
-    background: url(img/b9.jpg);
+    background: url(/img/b9.jpeg);
     left: 0px;
     top: 0px;
     background-size: cover;
+    background-position: center;
   }
 }
 .teen-choice {
